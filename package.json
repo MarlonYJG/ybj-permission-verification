@@ -1,0 +1,43 @@
+{
+  "name": "ybj-permission-verification",
+  "version": "1.0.0",
+  "description": "Use plugins to write permission verification. Permission verification usually involves interception and judgment of user permissions in routing navigation guards.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "assert": "^2.0.0",
+    "babel-loader": "^8.3.0",
+    "terser-webpack-plugin": "^4.2.3",
+    "webpack": "^4.47.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarlonYJG/source-library-ybj.git"
+  },
+  "keywords": [
+    "quotation",
+    "spreadjs",
+    "spreadjs15",
+    "ybj",
+    "source-library-ybj"
+  ],
+  "author": "Marlon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarlonYJG/source-library-ybj/issues"
+  },
+  "homepage": "https://github.com/MarlonYJG/source-library-ybj#readme"
+}
